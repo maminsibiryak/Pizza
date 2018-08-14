@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/expandedListItemProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+        android:paddingTop="10dp" />
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:id="@+id/productImage"/>
+    <TextView
+        android:id="@+id/expandedListItemProductDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+        android:paddingTop="10dp" />
+    <TextView
+        android:id="@+id/expandedListItemProductSize"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+        android:paddingTop="10dp" />
+</LinearLayout>
